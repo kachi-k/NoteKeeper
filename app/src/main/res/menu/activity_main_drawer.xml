@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/action_notes"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/Notes" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/action_courses"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/Courses" />
     </group>
+    <item android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:id="@+id/action_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Share" />
+            <item
+                android:id="@+id/action_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Send" />
+        </menu>
+    </item>
+
 </menu>
+
+

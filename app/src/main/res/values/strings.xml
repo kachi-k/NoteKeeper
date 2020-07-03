@@ -27,4 +27,10 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_main2">MainActivity</string>
     <string name="title_activity_note_keeper">NoteKeeper</string>
+    <string name="notes">Notes</string>
+    <string name="Courses">Courses</string>
+    <string name="Notes">Notes</string>
+    <string name="Share">Share</string>
+    <string name="Send">Send</string>
+    <string name="communicate">Communicate</string>
 </resources>
