@@ -1,0 +1,8 @@
+<root>
+    <item
+        name='androidx.navigation.ui.AppBarConfiguration.Builder androidx.navigation.ui.AppBarConfiguration.Builder setDrawerLayout(androidx.drawerlayout.widget.DrawerLayout)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;_-&gt;this&quot;" />
+        </annotation>
+    </item>
+</root>
